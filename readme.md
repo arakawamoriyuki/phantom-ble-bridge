@@ -11,11 +11,19 @@ https://developer.dji.com/mobile-sdk/documentation/application-development-workf
 
 ## Build
 
-- fw update
-- asp mode f(p3) p(p4)
-- xcodeproject -> general -> signing
+- sudo gem install cocoapods
+- pod repo update
+- pod install
+
+- dji developer https://developer.dji.com/
+- create app
+
+- Xcodeproject -> General -> Signing
+- Xcodeproject -> General -> Identifier -> Bundle Identifier
 - Info.plist -> DJISDKAppKey
 
+- fw update
+- asp mode f(p3) p(p4)
 
 ## Snippets
 
