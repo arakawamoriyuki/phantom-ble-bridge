@@ -9,6 +9,7 @@ git update-index --skip-worktree SwiftSampleCode/DJISDKSwiftDemo.xcodeproj/proje
 
 ### pod install
 
+- $ cd SwiftSampleCode
 - $ sudo gem install cocoapods
 - $ pod repo update
 - $ pod install
@@ -20,13 +21,14 @@ git update-index --skip-worktree SwiftSampleCode/DJISDKSwiftDemo.xcodeproj/proje
 
 ### xcode setting
 
+- open SwiftSampleCode from xcode
 - Xcodeproject -> General -> Signing
 - Xcodeproject -> General -> Identifier -> Bundle Identifier
 - Info.plist -> DJISDKAppKey
 
 ### shantom setting
 
-- fw update
+- fw update (aircraft and propo)
 - asp mode f(p3) p(p4)
 
 
