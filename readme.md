@@ -12,6 +12,7 @@ https://developer.dji.com/mobile-sdk/documentation/application-development-workf
 ## Build
 
 - sudo gem install cocoapods
+- pod install
 - pod repo update
 - pod install
 
