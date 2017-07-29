@@ -1,30 +1,34 @@
 
-TODO: Bridge App
-https://developer.dji.com/mobile-sdk/documentation/ios-tutorials/BridgeAppDemo.html
-TODO: Remote Logging
-https://developer.dji.com/mobile-sdk/documentation/ios-tutorials/RemoteLoggerDemo.html
-TODO: Simulator
-http://www.dji.com/jp/phantom-3/info#downloads
-https://developer.dji.com/mobile-sdk/documentation/application-development-workflow/workflow-testing.html
-
-
-
 ## Build
 
-- sudo gem install cocoapods
-- pod install
-- pod repo update
-- pod install
+下記は独自に編集が必要なのでcommit対象に含めない
+```
+git update-index --skip-worktree SwiftSampleCode/DJISDKSwiftDemo/Info.plist
+git update-index --skip-worktree SwiftSampleCode/DJISDKSwiftDemo.xcodeproj/project.pbxproj
+```
+
+### pod install
+
+- $ sudo gem install cocoapods
+- $ pod repo update
+- $ pod install
+
+### dji developer registration
 
 - dji developer https://developer.dji.com/
 - create app
+
+### xcode setting
 
 - Xcodeproject -> General -> Signing
 - Xcodeproject -> General -> Identifier -> Bundle Identifier
 - Info.plist -> DJISDKAppKey
 
+### shantom setting
+
 - fw update
 - asp mode f(p3) p(p4)
+
 
 ## Snippets
 
@@ -120,19 +124,13 @@ TODO:
 
 ## Tips
 
-### Bridge App
+- [Bridge App](https://github.com/dji-sdk/iOS-Bridge-App
+https://developer.dji.com/mobile-sdk/documentation/ios-tutorials/BridgeAppDemo.html) iOS二台必要
 
-https://github.com/dji-sdk/iOS-Bridge-App
-https://developer.dji.com/mobile-sdk/documentation/ios-tutorials/BridgeAppDemo.html
+- [Remote Logging](https://developer.dji.com/mobile-sdk/documentation/ios-tutorials/RemoteLoggerDemo.html)
 
-### Remote Logging
-
-https://developer.dji.com/mobile-sdk/documentation/ios-tutorials/RemoteLoggerDemo.html
-
-### Simulator
-
-http://www.dji.com/jp/phantom-3/info#downloads
-https://developer.dji.com/mobile-sdk/documentation/application-development-workflow/workflow-testing.html
+- [Simulator](
+https://developer.dji.com/mobile-sdk/documentation/application-development-workflow/workflow-testing.html) winでp3は可能、macはp4やSpark,Mavicに対応。
 
 
 
