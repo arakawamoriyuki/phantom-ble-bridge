@@ -1,15 +1,9 @@
 
 ## Build
 
-下記は独自に編集が必要なのでcommit対象に含めない
-```
-git update-index --skip-worktree SwiftSampleCode/DJISDKSwiftDemo/Info.plist
-git update-index --skip-worktree SwiftSampleCode/DJISDKSwiftDemo.xcodeproj/project.pbxproj
-```
-
 ### pod install
 
-- $ cd SwiftSampleCode
+- $ cd PhantomBleBridge
 - $ sudo gem install cocoapods
 - $ pod repo update
 - $ pod install
@@ -21,7 +15,7 @@ git update-index --skip-worktree SwiftSampleCode/DJISDKSwiftDemo.xcodeproj/proje
 
 ### xcode setting
 
-- open SwiftSampleCode from xcode
+- open PhantomBleBridge from xcode
 - Xcodeproject -> General -> Signing
 - Xcodeproject -> General -> Identifier -> Bundle Identifier
 - Info.plist -> DJISDKAppKey
