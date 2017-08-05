@@ -14,6 +14,7 @@
 		0B38058C1F358BDB00F85A61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B38058A1F358BDB00F85A61 /* LaunchScreen.storyboard */; };
 		0B3805971F358BDC00F85A61 /* PhantomBleBridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3805961F358BDC00F85A61 /* PhantomBleBridgeTests.swift */; };
 		0B3805A21F358BDC00F85A61 /* PhantomBleBridgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3805A11F358BDC00F85A61 /* PhantomBleBridgeUITests.swift */; };
+		419B1819CCB828BD6845F416 /* libPods-PhantomBleBridge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E7750A3C8D759F2E587B11C /* libPods-PhantomBleBridge.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,9 @@
 		0B38059D1F358BDC00F85A61 /* PhantomBleBridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhantomBleBridgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B3805A11F358BDC00F85A61 /* PhantomBleBridgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhantomBleBridgeUITests.swift; sourceTree = "<group>"; };
 		0B3805A31F358BDC00F85A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E7750A3C8D759F2E587B11C /* libPods-PhantomBleBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhantomBleBridge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6305FA4042ED2EBF2F8CC279 /* Pods-PhantomBleBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhantomBleBridge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhantomBleBridge/Pods-PhantomBleBridge.debug.xcconfig"; sourceTree = "<group>"; };
+		C5FDD48205FA4D8482C8E757 /* Pods-PhantomBleBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhantomBleBridge.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhantomBleBridge/Pods-PhantomBleBridge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				419B1819CCB828BD6845F416 /* libPods-PhantomBleBridge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				0B3805951F358BDC00F85A61 /* PhantomBleBridgeTests */,
 				0B3805A01F358BDC00F85A61 /* PhantomBleBridgeUITests */,
 				0B38057F1F358BDB00F85A61 /* Products */,
+				BC5D25DA1458080C9E6A211E /* Pods */,
+				357D0C8D478E4EB7CAB3F7F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,23 @@
 			path = PhantomBleBridgeUITests;
 			sourceTree = "<group>";
 		};
+		357D0C8D478E4EB7CAB3F7F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E7750A3C8D759F2E587B11C /* libPods-PhantomBleBridge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC5D25DA1458080C9E6A211E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6305FA4042ED2EBF2F8CC279 /* Pods-PhantomBleBridge.debug.xcconfig */,
+				C5FDD48205FA4D8482C8E757 /* Pods-PhantomBleBridge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B3805A61F358BDC00F85A61 /* Build configuration list for PBXNativeTarget "PhantomBleBridge" */;
 			buildPhases = (
+				9CFC0D93A51A5263AAC958D3 /* [CP] Check Pods Manifest.lock */,
 				0B38057A1F358BDB00F85A61 /* Sources */,
 				0B38057B1F358BDB00F85A61 /* Frameworks */,
 				0B38057C1F358BDB00F85A61 /* Resources */,
+				C30E074FD416ACDA4749CB1D /* [CP] Embed Pods Frameworks */,
+				F0E1A974BDA88F5C6AAF1E77 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +283,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9CFC0D93A51A5263AAC958D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C30E074FD416ACDA4749CB1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhantomBleBridge/Pods-PhantomBleBridge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0E1A974BDA88F5C6AAF1E77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhantomBleBridge/Pods-PhantomBleBridge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0B38057A1F358BDB00F85A61 /* Sources */ = {
@@ -413,26 +488,32 @@
 		};
 		0B3805A71F358BDC00F85A61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6305FA4042ED2EBF2F8CC279 /* Pods-PhantomBleBridge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = T873N4F8NP;
 				INFOPLIST_FILE = PhantomBleBridge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arakawa.PhantomBleBridge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		0B3805A81F358BDC00F85A61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FDD48205FA4D8482C8E757 /* Pods-PhantomBleBridge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = T873N4F8NP;
 				INFOPLIST_FILE = PhantomBleBridge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arakawa.PhantomBleBridge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
