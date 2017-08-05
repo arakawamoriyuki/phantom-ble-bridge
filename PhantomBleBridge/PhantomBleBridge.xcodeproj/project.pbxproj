@@ -493,6 +493,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = T873N4F8NP;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PhantomBleBridge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arakawa.PhantomBleBridge;
@@ -509,6 +510,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = T873N4F8NP;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PhantomBleBridge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arakawa.PhantomBleBridge;
@@ -595,6 +597,7 @@
 				0B3805A81F358BDC00F85A61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B3805A91F358BDC00F85A61 /* Build configuration list for PBXNativeTarget "PhantomBleBridgeTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +606,7 @@
 				0B3805AB1F358BDC00F85A61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B3805AC1F358BDC00F85A61 /* Build configuration list for PBXNativeTarget "PhantomBleBridgeUITests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +615,7 @@
 				0B3805AE1F358BDC00F85A61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
