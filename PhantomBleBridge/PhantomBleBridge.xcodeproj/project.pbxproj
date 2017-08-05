@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B35DD3B1F359712005091DC /* VideoPreviewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B35DD3A1F3596C0005091DC /* VideoPreviewer.framework */; };
+		0B35DD3C1F359712005091DC /* VideoPreviewer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0B35DD3A1F3596C0005091DC /* VideoPreviewer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0B3805821F358BDB00F85A61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3805811F358BDB00F85A61 /* AppDelegate.swift */; };
 		0B3805841F358BDB00F85A61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3805831F358BDB00F85A61 /* ViewController.swift */; };
 		0B3805871F358BDB00F85A61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3805851F358BDB00F85A61 /* Main.storyboard */; };
@@ -14,10 +16,30 @@
 		0B38058C1F358BDB00F85A61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B38058A1F358BDB00F85A61 /* LaunchScreen.storyboard */; };
 		0B3805971F358BDC00F85A61 /* PhantomBleBridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3805961F358BDC00F85A61 /* PhantomBleBridgeTests.swift */; };
 		0B3805A21F358BDC00F85A61 /* PhantomBleBridgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3805A11F358BDC00F85A61 /* PhantomBleBridgeUITests.swift */; };
-		419B1819CCB828BD6845F416 /* libPods-PhantomBleBridge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E7750A3C8D759F2E587B11C /* libPods-PhantomBleBridge.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0B35DD2D1F359663005091DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B35DD291F359663005091DC /* VideoPreviewer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 02A543FD1C3C51CB0083C11B;
+			remoteInfo = VideoPreviewer;
+		};
+		0B35DD391F3596C0005091DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B35DD351F3596C0005091DC /* VideoPreviewer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 02A543FD1C3C51CB0083C11B;
+			remoteInfo = VideoPreviewer;
+		};
+		0B35DD3D1F359712005091DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B35DD351F3596C0005091DC /* VideoPreviewer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 02A543FC1C3C51CB0083C11B;
+			remoteInfo = VideoPreviewer;
+		};
 		0B3805931F358BDC00F85A61 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0B3805761F358BDB00F85A61 /* Project object */;
@@ -34,7 +56,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0B35DD3F1F359712005091DC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0B35DD3C1F359712005091DC /* VideoPreviewer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0B35DD291F359663005091DC /* VideoPreviewer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VideoPreviewer.xcodeproj; path = "../Mobile-SDK-iOS/Sample Code/VideoPreviewer/VideoPreviewer.xcodeproj"; sourceTree = "<group>"; };
+		0B35DD351F3596C0005091DC /* VideoPreviewer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VideoPreviewer.xcodeproj; path = ../VideoPreviewer/VideoPreviewer.xcodeproj; sourceTree = "<group>"; };
 		0B38057E1F358BDB00F85A61 /* PhantomBleBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhantomBleBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B3805811F358BDB00F85A61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B3805831F358BDB00F85A61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +86,6 @@
 		0B38059D1F358BDC00F85A61 /* PhantomBleBridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhantomBleBridgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B3805A11F358BDC00F85A61 /* PhantomBleBridgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhantomBleBridgeUITests.swift; sourceTree = "<group>"; };
 		0B3805A31F358BDC00F85A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E7750A3C8D759F2E587B11C /* libPods-PhantomBleBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhantomBleBridge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6305FA4042ED2EBF2F8CC279 /* Pods-PhantomBleBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhantomBleBridge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhantomBleBridge/Pods-PhantomBleBridge.debug.xcconfig"; sourceTree = "<group>"; };
 		C5FDD48205FA4D8482C8E757 /* Pods-PhantomBleBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhantomBleBridge.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhantomBleBridge/Pods-PhantomBleBridge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				419B1819CCB828BD6845F416 /* libPods-PhantomBleBridge.a in Frameworks */,
+				0B35DD3B1F359712005091DC /* VideoPreviewer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +116,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B35DD2A1F359663005091DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B35DD2E1F359663005091DC /* VideoPreviewer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B35DD361F3596C0005091DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B35DD3A1F3596C0005091DC /* VideoPreviewer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		0B3805751F358BDB00F85A61 = {
 			isa = PBXGroup;
 			children = (
@@ -135,7 +188,7 @@
 		357D0C8D478E4EB7CAB3F7F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1E7750A3C8D759F2E587B11C /* libPods-PhantomBleBridge.a */,
+				0B35DD351F3596C0005091DC /* VideoPreviewer.xcodeproj */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -143,6 +196,7 @@
 		BC5D25DA1458080C9E6A211E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				0B35DD291F359663005091DC /* VideoPreviewer.xcodeproj */,
 				6305FA4042ED2EBF2F8CC279 /* Pods-PhantomBleBridge.debug.xcconfig */,
 				C5FDD48205FA4D8482C8E757 /* Pods-PhantomBleBridge.release.xcconfig */,
 			);
@@ -162,10 +216,12 @@
 				0B38057C1F358BDB00F85A61 /* Resources */,
 				C30E074FD416ACDA4749CB1D /* [CP] Embed Pods Frameworks */,
 				F0E1A974BDA88F5C6AAF1E77 /* [CP] Copy Pods Resources */,
+				0B35DD3F1F359712005091DC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0B35DD3E1F359712005091DC /* PBXTargetDependency */,
 			);
 			name = PhantomBleBridge;
 			productName = PhantomBleBridge;
@@ -248,6 +304,16 @@
 			mainGroup = 0B3805751F358BDB00F85A61;
 			productRefGroup = 0B38057F1F358BDB00F85A61 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0B35DD361F3596C0005091DC /* Products */;
+					ProjectRef = 0B35DD351F3596C0005091DC /* VideoPreviewer.xcodeproj */;
+				},
+				{
+					ProductGroup = 0B35DD2A1F359663005091DC /* Products */;
+					ProjectRef = 0B35DD291F359663005091DC /* VideoPreviewer.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0B38057D1F358BDB00F85A61 /* PhantomBleBridge */,
@@ -256,6 +322,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0B35DD2E1F359663005091DC /* VideoPreviewer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = VideoPreviewer.framework;
+			remoteRef = 0B35DD2D1F359663005091DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0B35DD3A1F3596C0005091DC /* VideoPreviewer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = VideoPreviewer.framework;
+			remoteRef = 0B35DD391F3596C0005091DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0B38057C1F358BDB00F85A61 /* Resources */ = {
@@ -361,6 +444,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0B35DD3E1F359712005091DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VideoPreviewer;
+			targetProxy = 0B35DD3D1F359712005091DC /* PBXContainerItemProxy */;
+		};
 		0B3805941F358BDC00F85A61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0B38057D1F358BDB00F85A61 /* PhantomBleBridge */;
