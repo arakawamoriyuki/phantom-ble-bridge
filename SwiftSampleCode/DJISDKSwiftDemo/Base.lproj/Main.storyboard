@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3Wf-wJ-3VA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3Wf-wJ-3VA">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -14,7 +13,7 @@
         <!--Startup View Controller-->
         <scene sceneID="SIb-O8-flv">
             <objects>
-                <viewController id="elD-ci-Ggq" customClass="StartupViewController" customModule="SDK_Swift_Sample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="elD-ci-Ggq" customClass="StartupViewController" customModule="DJISDKSwiftDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AIH-un-b7E"/>
                         <viewControllerLayoutGuide type="bottom" id="vZH-HF-j3L"/>
@@ -189,6 +188,33 @@
                                     </mask>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htn-CC-zFh" userLabel="Test">
+                                <rect key="frame" x="63" y="451" width="250" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="ACP-XZ-qLn"/>
+                                    <constraint firstAttribute="width" constant="250" id="YpD-mN-lgc"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="10" minY="15" maxX="10" maxY="15"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                <state key="normal" title="Test" backgroundImage="btn">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ACP-XZ-qLn"/>
+                                        <exclude reference="YpD-mN-lgc"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="ACP-XZ-qLn"/>
+                                        <include reference="YpD-mN-lgc"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <segue destination="ucn-ot-MIV" kind="show" id="l72-nv-2f0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -333,7 +359,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jwq-jC-t2b" id="Y8A-qO-dUS">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keyed Interfaces" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNT-y1-kOR">
@@ -361,7 +387,7 @@
                                         <rect key="frame" x="0.0" y="100" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GXR-Eb-xE6" id="40e-zS-9dE">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timeline" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ihk-WI-bGn">
@@ -416,7 +442,7 @@
         <!--Keyed Interface View Controller-->
         <scene sceneID="7TV-UK-6K7">
             <objects>
-                <viewController id="fJF-Az-g6z" customClass="KeyedInterfaceViewController" customModule="SDK_Swift_Sample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fJF-Az-g6z" customClass="KeyedInterfaceViewController" customModule="DJISDKSwiftDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kmo-NU-wbo"/>
                         <viewControllerLayoutGuide type="bottom" id="vhE-IO-JM6"/>
@@ -516,7 +542,7 @@
         <!--Timeline Mission View Controller-->
         <scene sceneID="Ys6-6P-dcl">
             <objects>
-                <viewController id="oJj-Fc-UDf" customClass="TimelineMissionViewController" customModule="SDK_Swift_Sample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="oJj-Fc-UDf" customClass="TimelineMissionViewController" customModule="DJISDKSwiftDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RgY-Xx-yWM"/>
                         <viewControllerLayoutGuide type="bottom" id="cJ8-ii-cNI"/>
@@ -538,7 +564,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="elementCell" id="3pi-dQ-MWd" customClass="TimelineElementCollectionViewCell" customModule="SDK_Swift_Sample" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="elementCell" id="3pi-dQ-MWd" customClass="TimelineElementCollectionViewCell" customModule="DJISDKSwiftDemo" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -579,7 +605,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="elementCell" id="32E-7y-qbt" customClass="TimelineElementCollectionViewCell" customModule="SDK_Swift_Sample" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="elementCell" id="32E-7y-qbt" customClass="TimelineElementCollectionViewCell" customModule="DJISDKSwiftDemo" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -681,7 +707,7 @@
         <!--Bluetooth Connector View Controller-->
         <scene sceneID="v6p-ea-HIW">
             <objects>
-                <viewController id="O1A-K2-k5x" customClass="BluetoothConnectorViewController" customModule="SDK_Swift_Sample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="O1A-K2-k5x" customClass="BluetoothConnectorViewController" customModule="DJISDKSwiftDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oIi-ys-qXK"/>
                         <viewControllerLayoutGuide type="bottom" id="bqs-Rb-jZv"/>
@@ -765,6 +791,224 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lDA-8p-yr1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2655" y="1332"/>
+        </scene>
+        <!--Test View Controller-->
+        <scene sceneID="scI-rL-jha">
+            <objects>
+                <viewController id="ucn-ot-MIV" userLabel="Test View Controller" customClass="TestViewController" customModule="DJISDKSwiftDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="J4v-OQ-gwK"/>
+                        <viewControllerLayoutGuide type="bottom" id="St9-Rw-6Cc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7W3-5k-tqw">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ssb-5L-Vxz">
+                                <rect key="frame" x="62" y="129" width="250" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="HGY-lL-kIx"/>
+                                    <constraint firstAttribute="height" constant="52" id="TrJ-2a-KvA"/>
+                                    <constraint firstAttribute="width" constant="250" id="pH1-0b-TBj"/>
+                                    <constraint firstAttribute="height" constant="52" id="v4W-dp-DHB"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="10" minY="15" maxX="10" maxY="15"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                <state key="normal" title="Start connection" backgroundImage="btn">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="pH1-0b-TBj"/>
+                                        <exclude reference="TrJ-2a-KvA"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="HGY-lL-kIx"/>
+                                        <include reference="pH1-0b-TBj"/>
+                                        <include reference="TrJ-2a-KvA"/>
+                                        <exclude reference="v4W-dp-DHB"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DtW-rU-xiK">
+                                <rect key="frame" x="62" y="189" width="250" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="HXr-73-KUf"/>
+                                    <constraint firstAttribute="width" constant="250" id="SAD-6x-Tv1"/>
+                                    <constraint firstAttribute="height" constant="52" id="Smc-0b-UOU"/>
+                                    <constraint firstAttribute="height" constant="52" id="agz-IY-7Ck"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="10" minY="15" maxX="10" maxY="15"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                <state key="normal" title="Stop connection" backgroundImage="btn">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="HXr-73-KUf"/>
+                                        <exclude reference="agz-IY-7Ck"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="SAD-6x-Tv1"/>
+                                        <include reference="HXr-73-KUf"/>
+                                        <include reference="agz-IY-7Ck"/>
+                                        <exclude reference="Smc-0b-UOU"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUm-89-6kJ">
+                                <rect key="frame" x="62" y="249" width="250" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="Gfy-Xa-Vmk"/>
+                                    <constraint firstAttribute="height" constant="52" id="naa-hR-f5L"/>
+                                    <constraint firstAttribute="height" constant="52" id="sIy-Ov-ygy"/>
+                                    <constraint firstAttribute="width" constant="250" id="wG1-2Y-gzF"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="10" minY="15" maxX="10" maxY="15"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                <state key="normal" title="Turn on motors" backgroundImage="btn">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="wG1-2Y-gzF"/>
+                                        <exclude reference="sIy-Ov-ygy"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="Gfy-Xa-Vmk"/>
+                                        <include reference="wG1-2Y-gzF"/>
+                                        <include reference="sIy-Ov-ygy"/>
+                                        <exclude reference="naa-hR-f5L"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vnn-2S-wLe">
+                                <rect key="frame" x="62" y="309" width="250" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="Rf6-Pr-Q7E"/>
+                                    <constraint firstAttribute="width" constant="250" id="fal-xz-mX2"/>
+                                    <constraint firstAttribute="height" constant="52" id="tBW-wP-XYW"/>
+                                    <constraint firstAttribute="height" constant="52" id="vYI-oo-5sP"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="10" minY="15" maxX="10" maxY="15"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                <state key="normal" title="Turn off motors" backgroundImage="btn">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="fal-xz-mX2"/>
+                                        <exclude reference="vYI-oo-5sP"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="Rf6-Pr-Q7E"/>
+                                        <include reference="fal-xz-mX2"/>
+                                        <include reference="vYI-oo-5sP"/>
+                                        <exclude reference="tBW-wP-XYW"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTA-5P-4D2">
+                                <rect key="frame" x="62" y="369" width="250" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="0il-qZ-Vtn"/>
+                                    <constraint firstAttribute="width" constant="250" id="Xc7-wO-m9K"/>
+                                    <constraint firstAttribute="height" constant="52" id="kWP-vE-X4Y"/>
+                                    <constraint firstAttribute="height" constant="52" id="sLf-6u-5Nw"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="10" minY="15" maxX="10" maxY="15"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                <state key="normal" title="Take Off" backgroundImage="btn">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Xc7-wO-m9K"/>
+                                        <exclude reference="sLf-6u-5Nw"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="0il-qZ-Vtn"/>
+                                        <include reference="Xc7-wO-m9K"/>
+                                        <include reference="sLf-6u-5Nw"/>
+                                        <exclude reference="kWP-vE-X4Y"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jp3-0S-rwD">
+                                <rect key="frame" x="62" y="429" width="250" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="KU4-Ig-UiS"/>
+                                    <constraint firstAttribute="height" constant="52" id="eJh-cT-QaM"/>
+                                    <constraint firstAttribute="height" constant="52" id="fz5-EB-RSe"/>
+                                    <constraint firstAttribute="width" constant="250" id="qcL-AS-Wb8"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="10" minY="15" maxX="10" maxY="15"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                <state key="normal" title="Landing" backgroundImage="btn">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="qcL-AS-Wb8"/>
+                                        <exclude reference="fz5-EB-RSe"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="KU4-Ig-UiS"/>
+                                        <include reference="qcL-AS-Wb8"/>
+                                        <include reference="fz5-EB-RSe"/>
+                                        <exclude reference="eJh-cT-QaM"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ssb-5L-Vxz" firstAttribute="centerX" secondItem="7W3-5k-tqw" secondAttribute="centerX" id="cfO-ML-aSU"/>
+                            <constraint firstItem="ssb-5L-Vxz" firstAttribute="centerY" secondItem="7W3-5k-tqw" secondAttribute="centerY" constant="33.5" id="ePZ-Ib-MY8">
+                                <variation key="heightClass=compact-widthClass=regular" constant="7"/>
+                            </constraint>
+                            <constraint firstItem="ssb-5L-Vxz" firstAttribute="centerY" secondItem="7W3-5k-tqw" secondAttribute="centerY" id="n4h-km-NT5">
+                                <variation key="heightClass=compact" constant="26.5"/>
+                            </constraint>
+                            <constraint firstItem="ssb-5L-Vxz" firstAttribute="centerX" secondItem="7W3-5k-tqw" secondAttribute="centerX" id="xRR-9z-BNI">
+                                <variation key="heightClass=compact" constant="0.5"/>
+                            </constraint>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="xRR-9z-BNI"/>
+                                <exclude reference="n4h-km-NT5"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="cfO-ML-aSU"/>
+                                <exclude reference="ePZ-Ib-MY8"/>
+                                <include reference="xRR-9z-BNI"/>
+                                <include reference="n4h-km-NT5"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="7qF-8n-Uj7"/>
+                    <connections>
+                        <outlet property="openComponents" destination="ssb-5L-Vxz" id="1RN-1c-Tba"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="blY-vj-fXl" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1516" y="1322"/>
         </scene>
     </scenes>
     <resources>
