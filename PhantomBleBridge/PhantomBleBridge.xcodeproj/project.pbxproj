@@ -7,106 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B35DD3B1F359712005091DC /* VideoPreviewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B35DD3A1F3596C0005091DC /* VideoPreviewer.framework */; };
-		0B35DD3C1F359712005091DC /* VideoPreviewer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0B35DD3A1F3596C0005091DC /* VideoPreviewer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0B3805821F358BDB00F85A61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3805811F358BDB00F85A61 /* AppDelegate.swift */; };
-		0B3805841F358BDB00F85A61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3805831F358BDB00F85A61 /* ViewController.swift */; };
-		0B3805871F358BDB00F85A61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3805851F358BDB00F85A61 /* Main.storyboard */; };
-		0B3805891F358BDB00F85A61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B3805881F358BDB00F85A61 /* Assets.xcassets */; };
-		0B38058C1F358BDB00F85A61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B38058A1F358BDB00F85A61 /* LaunchScreen.storyboard */; };
-		0B3805971F358BDC00F85A61 /* PhantomBleBridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3805961F358BDC00F85A61 /* PhantomBleBridgeTests.swift */; };
-		0B3805A21F358BDC00F85A61 /* PhantomBleBridgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3805A11F358BDC00F85A61 /* PhantomBleBridgeUITests.swift */; };
+		0B35DD501F359D17005091DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B35DD4F1F359D17005091DC /* AppDelegate.swift */; };
+		0B35DD521F359D17005091DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B35DD511F359D17005091DC /* ViewController.swift */; };
+		0B35DD551F359D17005091DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B35DD531F359D17005091DC /* Main.storyboard */; };
+		0B35DD571F359D17005091DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B35DD561F359D17005091DC /* Assets.xcassets */; };
+		0B35DD5A1F359D17005091DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B35DD581F359D17005091DC /* LaunchScreen.storyboard */; };
+		0B35DD651F359D17005091DC /* PhantomBleBridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B35DD641F359D17005091DC /* PhantomBleBridgeTests.swift */; };
+		0B35DD701F359D17005091DC /* PhantomBleBridgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B35DD6F1F359D17005091DC /* PhantomBleBridgeUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0B35DD2D1F359663005091DC /* PBXContainerItemProxy */ = {
+		0B35DD611F359D17005091DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0B35DD291F359663005091DC /* VideoPreviewer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 02A543FD1C3C51CB0083C11B;
-			remoteInfo = VideoPreviewer;
-		};
-		0B35DD391F3596C0005091DC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0B35DD351F3596C0005091DC /* VideoPreviewer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 02A543FD1C3C51CB0083C11B;
-			remoteInfo = VideoPreviewer;
-		};
-		0B35DD3D1F359712005091DC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0B35DD351F3596C0005091DC /* VideoPreviewer.xcodeproj */;
+			containerPortal = 0B35DD441F359D17005091DC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 02A543FC1C3C51CB0083C11B;
-			remoteInfo = VideoPreviewer;
-		};
-		0B3805931F358BDC00F85A61 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0B3805761F358BDB00F85A61 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0B38057D1F358BDB00F85A61;
+			remoteGlobalIDString = 0B35DD4B1F359D17005091DC;
 			remoteInfo = PhantomBleBridge;
 		};
-		0B38059E1F358BDC00F85A61 /* PBXContainerItemProxy */ = {
+		0B35DD6C1F359D17005091DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0B3805761F358BDB00F85A61 /* Project object */;
+			containerPortal = 0B35DD441F359D17005091DC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0B38057D1F358BDB00F85A61;
+			remoteGlobalIDString = 0B35DD4B1F359D17005091DC;
 			remoteInfo = PhantomBleBridge;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		0B35DD3F1F359712005091DC /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				0B35DD3C1F359712005091DC /* VideoPreviewer.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		0B35DD291F359663005091DC /* VideoPreviewer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VideoPreviewer.xcodeproj; path = "../Mobile-SDK-iOS/Sample Code/VideoPreviewer/VideoPreviewer.xcodeproj"; sourceTree = "<group>"; };
-		0B35DD351F3596C0005091DC /* VideoPreviewer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VideoPreviewer.xcodeproj; path = ../VideoPreviewer/VideoPreviewer.xcodeproj; sourceTree = "<group>"; };
-		0B38057E1F358BDB00F85A61 /* PhantomBleBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhantomBleBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B3805811F358BDB00F85A61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0B3805831F358BDB00F85A61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0B3805861F358BDB00F85A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0B3805881F358BDB00F85A61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0B38058B1F358BDB00F85A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0B38058D1F358BDB00F85A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B3805921F358BDC00F85A61 /* PhantomBleBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhantomBleBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B3805961F358BDC00F85A61 /* PhantomBleBridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhantomBleBridgeTests.swift; sourceTree = "<group>"; };
-		0B3805981F358BDC00F85A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B38059D1F358BDC00F85A61 /* PhantomBleBridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhantomBleBridgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B3805A11F358BDC00F85A61 /* PhantomBleBridgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhantomBleBridgeUITests.swift; sourceTree = "<group>"; };
-		0B3805A31F358BDC00F85A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6305FA4042ED2EBF2F8CC279 /* Pods-PhantomBleBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhantomBleBridge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhantomBleBridge/Pods-PhantomBleBridge.debug.xcconfig"; sourceTree = "<group>"; };
-		C5FDD48205FA4D8482C8E757 /* Pods-PhantomBleBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhantomBleBridge.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhantomBleBridge/Pods-PhantomBleBridge.release.xcconfig"; sourceTree = "<group>"; };
+		0B35DD4C1F359D17005091DC /* PhantomBleBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhantomBleBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B35DD4F1F359D17005091DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B35DD511F359D17005091DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B35DD541F359D17005091DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B35DD561F359D17005091DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B35DD591F359D17005091DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B35DD5B1F359D17005091DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B35DD601F359D17005091DC /* PhantomBleBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhantomBleBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B35DD641F359D17005091DC /* PhantomBleBridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhantomBleBridgeTests.swift; sourceTree = "<group>"; };
+		0B35DD661F359D17005091DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B35DD6B1F359D17005091DC /* PhantomBleBridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhantomBleBridgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B35DD6F1F359D17005091DC /* PhantomBleBridgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhantomBleBridgeUITests.swift; sourceTree = "<group>"; };
+		0B35DD711F359D17005091DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0B38057B1F358BDB00F85A61 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0B35DD3B1F359712005091DC /* VideoPreviewer.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0B38058F1F358BDC00F85A61 /* Frameworks */ = {
+		0B35DD491F359D17005091DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0B38059A1F358BDC00F85A61 /* Frameworks */ = {
+		0B35DD5D1F359D17005091DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B35DD681F359D17005091DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -116,184 +74,143 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B35DD2A1F359663005091DC /* Products */ = {
+		0B35DD431F359D17005091DC = {
 			isa = PBXGroup;
 			children = (
-				0B35DD2E1F359663005091DC /* VideoPreviewer.framework */,
+				0B35DD4E1F359D17005091DC /* PhantomBleBridge */,
+				0B35DD631F359D17005091DC /* PhantomBleBridgeTests */,
+				0B35DD6E1F359D17005091DC /* PhantomBleBridgeUITests */,
+				0B35DD4D1F359D17005091DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B35DD4D1F359D17005091DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B35DD4C1F359D17005091DC /* PhantomBleBridge.app */,
+				0B35DD601F359D17005091DC /* PhantomBleBridgeTests.xctest */,
+				0B35DD6B1F359D17005091DC /* PhantomBleBridgeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0B35DD361F3596C0005091DC /* Products */ = {
+		0B35DD4E1F359D17005091DC /* PhantomBleBridge */ = {
 			isa = PBXGroup;
 			children = (
-				0B35DD3A1F3596C0005091DC /* VideoPreviewer.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0B3805751F358BDB00F85A61 = {
-			isa = PBXGroup;
-			children = (
-				0B3805801F358BDB00F85A61 /* PhantomBleBridge */,
-				0B3805951F358BDC00F85A61 /* PhantomBleBridgeTests */,
-				0B3805A01F358BDC00F85A61 /* PhantomBleBridgeUITests */,
-				0B38057F1F358BDB00F85A61 /* Products */,
-				BC5D25DA1458080C9E6A211E /* Pods */,
-				357D0C8D478E4EB7CAB3F7F1 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		0B38057F1F358BDB00F85A61 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0B38057E1F358BDB00F85A61 /* PhantomBleBridge.app */,
-				0B3805921F358BDC00F85A61 /* PhantomBleBridgeTests.xctest */,
-				0B38059D1F358BDC00F85A61 /* PhantomBleBridgeUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0B3805801F358BDB00F85A61 /* PhantomBleBridge */ = {
-			isa = PBXGroup;
-			children = (
-				0B3805811F358BDB00F85A61 /* AppDelegate.swift */,
-				0B3805831F358BDB00F85A61 /* ViewController.swift */,
-				0B3805851F358BDB00F85A61 /* Main.storyboard */,
-				0B3805881F358BDB00F85A61 /* Assets.xcassets */,
-				0B38058A1F358BDB00F85A61 /* LaunchScreen.storyboard */,
-				0B38058D1F358BDB00F85A61 /* Info.plist */,
+				0B35DD4F1F359D17005091DC /* AppDelegate.swift */,
+				0B35DD511F359D17005091DC /* ViewController.swift */,
+				0B35DD531F359D17005091DC /* Main.storyboard */,
+				0B35DD561F359D17005091DC /* Assets.xcassets */,
+				0B35DD581F359D17005091DC /* LaunchScreen.storyboard */,
+				0B35DD5B1F359D17005091DC /* Info.plist */,
 			);
 			path = PhantomBleBridge;
 			sourceTree = "<group>";
 		};
-		0B3805951F358BDC00F85A61 /* PhantomBleBridgeTests */ = {
+		0B35DD631F359D17005091DC /* PhantomBleBridgeTests */ = {
 			isa = PBXGroup;
 			children = (
-				0B3805961F358BDC00F85A61 /* PhantomBleBridgeTests.swift */,
-				0B3805981F358BDC00F85A61 /* Info.plist */,
+				0B35DD641F359D17005091DC /* PhantomBleBridgeTests.swift */,
+				0B35DD661F359D17005091DC /* Info.plist */,
 			);
 			path = PhantomBleBridgeTests;
 			sourceTree = "<group>";
 		};
-		0B3805A01F358BDC00F85A61 /* PhantomBleBridgeUITests */ = {
+		0B35DD6E1F359D17005091DC /* PhantomBleBridgeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				0B3805A11F358BDC00F85A61 /* PhantomBleBridgeUITests.swift */,
-				0B3805A31F358BDC00F85A61 /* Info.plist */,
+				0B35DD6F1F359D17005091DC /* PhantomBleBridgeUITests.swift */,
+				0B35DD711F359D17005091DC /* Info.plist */,
 			);
 			path = PhantomBleBridgeUITests;
-			sourceTree = "<group>";
-		};
-		357D0C8D478E4EB7CAB3F7F1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0B35DD351F3596C0005091DC /* VideoPreviewer.xcodeproj */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BC5D25DA1458080C9E6A211E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0B35DD291F359663005091DC /* VideoPreviewer.xcodeproj */,
-				6305FA4042ED2EBF2F8CC279 /* Pods-PhantomBleBridge.debug.xcconfig */,
-				C5FDD48205FA4D8482C8E757 /* Pods-PhantomBleBridge.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0B38057D1F358BDB00F85A61 /* PhantomBleBridge */ = {
+		0B35DD4B1F359D17005091DC /* PhantomBleBridge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B3805A61F358BDC00F85A61 /* Build configuration list for PBXNativeTarget "PhantomBleBridge" */;
+			buildConfigurationList = 0B35DD741F359D17005091DC /* Build configuration list for PBXNativeTarget "PhantomBleBridge" */;
 			buildPhases = (
-				9CFC0D93A51A5263AAC958D3 /* [CP] Check Pods Manifest.lock */,
-				0B38057A1F358BDB00F85A61 /* Sources */,
-				0B38057B1F358BDB00F85A61 /* Frameworks */,
-				0B38057C1F358BDB00F85A61 /* Resources */,
-				C30E074FD416ACDA4749CB1D /* [CP] Embed Pods Frameworks */,
-				F0E1A974BDA88F5C6AAF1E77 /* [CP] Copy Pods Resources */,
-				0B35DD3F1F359712005091DC /* Embed Frameworks */,
+				0B35DD481F359D17005091DC /* Sources */,
+				0B35DD491F359D17005091DC /* Frameworks */,
+				0B35DD4A1F359D17005091DC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0B35DD3E1F359712005091DC /* PBXTargetDependency */,
 			);
 			name = PhantomBleBridge;
 			productName = PhantomBleBridge;
-			productReference = 0B38057E1F358BDB00F85A61 /* PhantomBleBridge.app */;
+			productReference = 0B35DD4C1F359D17005091DC /* PhantomBleBridge.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0B3805911F358BDC00F85A61 /* PhantomBleBridgeTests */ = {
+		0B35DD5F1F359D17005091DC /* PhantomBleBridgeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B3805A91F358BDC00F85A61 /* Build configuration list for PBXNativeTarget "PhantomBleBridgeTests" */;
+			buildConfigurationList = 0B35DD771F359D17005091DC /* Build configuration list for PBXNativeTarget "PhantomBleBridgeTests" */;
 			buildPhases = (
-				0B38058E1F358BDC00F85A61 /* Sources */,
-				0B38058F1F358BDC00F85A61 /* Frameworks */,
-				0B3805901F358BDC00F85A61 /* Resources */,
+				0B35DD5C1F359D17005091DC /* Sources */,
+				0B35DD5D1F359D17005091DC /* Frameworks */,
+				0B35DD5E1F359D17005091DC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0B3805941F358BDC00F85A61 /* PBXTargetDependency */,
+				0B35DD621F359D17005091DC /* PBXTargetDependency */,
 			);
 			name = PhantomBleBridgeTests;
 			productName = PhantomBleBridgeTests;
-			productReference = 0B3805921F358BDC00F85A61 /* PhantomBleBridgeTests.xctest */;
+			productReference = 0B35DD601F359D17005091DC /* PhantomBleBridgeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0B38059C1F358BDC00F85A61 /* PhantomBleBridgeUITests */ = {
+		0B35DD6A1F359D17005091DC /* PhantomBleBridgeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B3805AC1F358BDC00F85A61 /* Build configuration list for PBXNativeTarget "PhantomBleBridgeUITests" */;
+			buildConfigurationList = 0B35DD7A1F359D17005091DC /* Build configuration list for PBXNativeTarget "PhantomBleBridgeUITests" */;
 			buildPhases = (
-				0B3805991F358BDC00F85A61 /* Sources */,
-				0B38059A1F358BDC00F85A61 /* Frameworks */,
-				0B38059B1F358BDC00F85A61 /* Resources */,
+				0B35DD671F359D17005091DC /* Sources */,
+				0B35DD681F359D17005091DC /* Frameworks */,
+				0B35DD691F359D17005091DC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0B38059F1F358BDC00F85A61 /* PBXTargetDependency */,
+				0B35DD6D1F359D17005091DC /* PBXTargetDependency */,
 			);
 			name = PhantomBleBridgeUITests;
 			productName = PhantomBleBridgeUITests;
-			productReference = 0B38059D1F358BDC00F85A61 /* PhantomBleBridgeUITests.xctest */;
+			productReference = 0B35DD6B1F359D17005091DC /* PhantomBleBridgeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0B3805761F358BDB00F85A61 /* Project object */ = {
+		0B35DD441F359D17005091DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "新川盛幸";
 				TargetAttributes = {
-					0B38057D1F358BDB00F85A61 = {
+					0B35DD4B1F359D17005091DC = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = T873N4F8NP;
 						ProvisioningStyle = Automatic;
 					};
-					0B3805911F358BDC00F85A61 = {
+					0B35DD5F1F359D17005091DC = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = T873N4F8NP;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 0B38057D1F358BDB00F85A61;
+						TestTargetID = 0B35DD4B1F359D17005091DC;
 					};
-					0B38059C1F358BDC00F85A61 = {
+					0B35DD6A1F359D17005091DC = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = T873N4F8NP;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 0B38057D1F358BDB00F85A61;
+						TestTargetID = 0B35DD4B1F359D17005091DC;
 					};
 				};
 			};
-			buildConfigurationList = 0B3805791F358BDB00F85A61 /* Build configuration list for PBXProject "PhantomBleBridge" */;
+			buildConfigurationList = 0B35DD471F359D17005091DC /* Build configuration list for PBXProject "PhantomBleBridge" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -301,64 +218,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 0B3805751F358BDB00F85A61;
-			productRefGroup = 0B38057F1F358BDB00F85A61 /* Products */;
+			mainGroup = 0B35DD431F359D17005091DC;
+			productRefGroup = 0B35DD4D1F359D17005091DC /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 0B35DD361F3596C0005091DC /* Products */;
-					ProjectRef = 0B35DD351F3596C0005091DC /* VideoPreviewer.xcodeproj */;
-				},
-				{
-					ProductGroup = 0B35DD2A1F359663005091DC /* Products */;
-					ProjectRef = 0B35DD291F359663005091DC /* VideoPreviewer.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				0B38057D1F358BDB00F85A61 /* PhantomBleBridge */,
-				0B3805911F358BDC00F85A61 /* PhantomBleBridgeTests */,
-				0B38059C1F358BDC00F85A61 /* PhantomBleBridgeUITests */,
+				0B35DD4B1F359D17005091DC /* PhantomBleBridge */,
+				0B35DD5F1F359D17005091DC /* PhantomBleBridgeTests */,
+				0B35DD6A1F359D17005091DC /* PhantomBleBridgeUITests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		0B35DD2E1F359663005091DC /* VideoPreviewer.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = VideoPreviewer.framework;
-			remoteRef = 0B35DD2D1F359663005091DC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0B35DD3A1F3596C0005091DC /* VideoPreviewer.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = VideoPreviewer.framework;
-			remoteRef = 0B35DD391F3596C0005091DC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
-		0B38057C1F358BDB00F85A61 /* Resources */ = {
+		0B35DD4A1F359D17005091DC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B38058C1F358BDB00F85A61 /* LaunchScreen.storyboard in Resources */,
-				0B3805891F358BDB00F85A61 /* Assets.xcassets in Resources */,
-				0B3805871F358BDB00F85A61 /* Main.storyboard in Resources */,
+				0B35DD5A1F359D17005091DC /* LaunchScreen.storyboard in Resources */,
+				0B35DD571F359D17005091DC /* Assets.xcassets in Resources */,
+				0B35DD551F359D17005091DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0B3805901F358BDC00F85A61 /* Resources */ = {
+		0B35DD5E1F359D17005091DC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0B38059B1F358BDC00F85A61 /* Resources */ = {
+		0B35DD691F359D17005091DC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,113 +257,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		9CFC0D93A51A5263AAC958D3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C30E074FD416ACDA4749CB1D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhantomBleBridge/Pods-PhantomBleBridge-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F0E1A974BDA88F5C6AAF1E77 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhantomBleBridge/Pods-PhantomBleBridge-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		0B38057A1F358BDB00F85A61 /* Sources */ = {
+		0B35DD481F359D17005091DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B3805841F358BDB00F85A61 /* ViewController.swift in Sources */,
-				0B3805821F358BDB00F85A61 /* AppDelegate.swift in Sources */,
+				0B35DD521F359D17005091DC /* ViewController.swift in Sources */,
+				0B35DD501F359D17005091DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0B38058E1F358BDC00F85A61 /* Sources */ = {
+		0B35DD5C1F359D17005091DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B3805971F358BDC00F85A61 /* PhantomBleBridgeTests.swift in Sources */,
+				0B35DD651F359D17005091DC /* PhantomBleBridgeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0B3805991F358BDC00F85A61 /* Sources */ = {
+		0B35DD671F359D17005091DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B3805A21F358BDC00F85A61 /* PhantomBleBridgeUITests.swift in Sources */,
+				0B35DD701F359D17005091DC /* PhantomBleBridgeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0B35DD3E1F359712005091DC /* PBXTargetDependency */ = {
+		0B35DD621F359D17005091DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = VideoPreviewer;
-			targetProxy = 0B35DD3D1F359712005091DC /* PBXContainerItemProxy */;
+			target = 0B35DD4B1F359D17005091DC /* PhantomBleBridge */;
+			targetProxy = 0B35DD611F359D17005091DC /* PBXContainerItemProxy */;
 		};
-		0B3805941F358BDC00F85A61 /* PBXTargetDependency */ = {
+		0B35DD6D1F359D17005091DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0B38057D1F358BDB00F85A61 /* PhantomBleBridge */;
-			targetProxy = 0B3805931F358BDC00F85A61 /* PBXContainerItemProxy */;
-		};
-		0B38059F1F358BDC00F85A61 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0B38057D1F358BDB00F85A61 /* PhantomBleBridge */;
-			targetProxy = 0B38059E1F358BDC00F85A61 /* PBXContainerItemProxy */;
+			target = 0B35DD4B1F359D17005091DC /* PhantomBleBridge */;
+			targetProxy = 0B35DD6C1F359D17005091DC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0B3805851F358BDB00F85A61 /* Main.storyboard */ = {
+		0B35DD531F359D17005091DC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0B3805861F358BDB00F85A61 /* Base */,
+				0B35DD541F359D17005091DC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0B38058A1F358BDB00F85A61 /* LaunchScreen.storyboard */ = {
+		0B35DD581F359D17005091DC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0B38058B1F358BDB00F85A61 /* Base */,
+				0B35DD591F359D17005091DC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -481,7 +318,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0B3805A41F358BDC00F85A61 /* Debug */ = {
+		0B35DD721F359D17005091DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -531,7 +368,7 @@
 			};
 			name = Debug;
 		};
-		0B3805A51F358BDC00F85A61 /* Release */ = {
+		0B35DD731F359D17005091DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -574,41 +411,33 @@
 			};
 			name = Release;
 		};
-		0B3805A71F358BDC00F85A61 /* Debug */ = {
+		0B35DD751F359D17005091DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6305FA4042ED2EBF2F8CC279 /* Pods-PhantomBleBridge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = T873N4F8NP;
-				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PhantomBleBridge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.arakawa.PhantomBleBridge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arakawa.PhantomBleBridge.PhantomBleBridge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		0B3805A81F358BDC00F85A61 /* Release */ = {
+		0B35DD761F359D17005091DC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5FDD48205FA4D8482C8E757 /* Pods-PhantomBleBridge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = T873N4F8NP;
-				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PhantomBleBridge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.arakawa.PhantomBleBridge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arakawa.PhantomBleBridge.PhantomBleBridge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		0B3805AA1F358BDC00F85A61 /* Debug */ = {
+		0B35DD781F359D17005091DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -623,7 +452,7 @@
 			};
 			name = Debug;
 		};
-		0B3805AB1F358BDC00F85A61 /* Release */ = {
+		0B35DD791F359D17005091DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -638,7 +467,7 @@
 			};
 			name = Release;
 		};
-		0B3805AD1F358BDC00F85A61 /* Debug */ = {
+		0B35DD7B1F359D17005091DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -652,7 +481,7 @@
 			};
 			name = Debug;
 		};
-		0B3805AE1F358BDC00F85A61 /* Release */ = {
+		0B35DD7C1F359D17005091DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -669,43 +498,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B3805791F358BDB00F85A61 /* Build configuration list for PBXProject "PhantomBleBridge" */ = {
+		0B35DD471F359D17005091DC /* Build configuration list for PBXProject "PhantomBleBridge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B3805A41F358BDC00F85A61 /* Debug */,
-				0B3805A51F358BDC00F85A61 /* Release */,
+				0B35DD721F359D17005091DC /* Debug */,
+				0B35DD731F359D17005091DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B3805A61F358BDC00F85A61 /* Build configuration list for PBXNativeTarget "PhantomBleBridge" */ = {
+		0B35DD741F359D17005091DC /* Build configuration list for PBXNativeTarget "PhantomBleBridge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B3805A71F358BDC00F85A61 /* Debug */,
-				0B3805A81F358BDC00F85A61 /* Release */,
+				0B35DD751F359D17005091DC /* Debug */,
+				0B35DD761F359D17005091DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		0B3805A91F358BDC00F85A61 /* Build configuration list for PBXNativeTarget "PhantomBleBridgeTests" */ = {
+		0B35DD771F359D17005091DC /* Build configuration list for PBXNativeTarget "PhantomBleBridgeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B3805AA1F358BDC00F85A61 /* Debug */,
-				0B3805AB1F358BDC00F85A61 /* Release */,
+				0B35DD781F359D17005091DC /* Debug */,
+				0B35DD791F359D17005091DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		0B3805AC1F358BDC00F85A61 /* Build configuration list for PBXNativeTarget "PhantomBleBridgeUITests" */ = {
+		0B35DD7A1F359D17005091DC /* Build configuration list for PBXNativeTarget "PhantomBleBridgeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B3805AD1F358BDC00F85A61 /* Debug */,
-				0B3805AE1F358BDC00F85A61 /* Release */,
+				0B35DD7B1F359D17005091DC /* Debug */,
+				0B35DD7C1F359D17005091DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0B3805761F358BDB00F85A61 /* Project object */;
+	rootObject = 0B35DD441F359D17005091DC /* Project object */;
 }
