@@ -65,7 +65,11 @@ class ViewController: UIViewController, DJISDKManagerDelegate {
         NSLog("onTurnOnMotorButtonTouchUp")
         
         if let aircraft = DJISDKManager.product() as? DJIAircraft {
-            aircraft.flightController?.turnOnMotors(completion: nil)
+            aircraft.flightController?.turnOnMotors({
+                
+                NSLog("turnOnMotors completion")
+                
+            })
         }else{
             self.showAlertViewWithTitle(title:"Action", withMessage: "Product Connection Not Found")
         }
